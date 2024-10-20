@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/pages/home/Home';
 import Header from './components/Header';
 import Topbar from './components/Topbar';
-import Login from './components/pages/login-registeer/LOgin';
+import Login from './components/pages/login-registeer/Login';
 import UserLogin from './components/pages/login-registeer/UserLogin';
 import Register from './components/pages/login-registeer/Register';
 import About from './components/pages/About';
