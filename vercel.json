@@ -3,5 +3,5 @@
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
-```[_{{{CITATION{{{_3{How to solve Vercel and Netlify "Page Not Found" after page refresh ...](https://dev.to/devvsakib/how-to-solve-vercel-and-netlify-page-not-found-after-page-refresh-solved-2ol7)
+
 
