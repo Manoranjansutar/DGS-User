@@ -53,7 +53,7 @@ const Login = ({isAuthenticated}) => {
       {chooseLogin === "admin" ? (
         <div className="flex flex-col items-center justify-center">
           <p className="text-gray-500">Only for Admin User</p>
-          <Button className='px-5 mt-3 text-xl uppercase bg-green-900 hover:bg-green-800'>Admin Login</Button>
+         <a href="https://dgs-admin.vercel.app/"> <Button className='px-5 mt-3 text-xl uppercase bg-green-900 hover:bg-green-800'>Admin Login</Button></a>
         </div>
       ) : (
         ""
@@ -61,7 +61,7 @@ const Login = ({isAuthenticated}) => {
       {chooseLogin === "employee" ? (
         <div className="flex flex-col items-center justify-center">
           <p className="mt-3 text-gray-500">Only for Employed User</p>
-          <Button className='px-5 mt-3 text-xl uppercase bg-green-900 hover:bg-green-800'>Employee Login</Button>
+          <a href='https://dgs-employee.vercel.app/'><Button className='px-5 mt-3 text-xl uppercase bg-green-900 hover:bg-green-800'>Employee Login</Button></a>
         </div>
       ) : (
         ""
